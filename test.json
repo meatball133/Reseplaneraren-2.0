@@ -1,0 +1,1014 @@
+{
+    "results": [
+        {
+            "reconstructionReference": "¶HKI¶T$A=1@O=Brunnsparken, Göteborg@L=1760001@a=128@$A=1@O=Korsvägen, Göteborg@L=3980004@a=128@$202312221649$202312221657$Bus   18$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#97#AM2#0#RT#15#¶KRCC¶#VE#1#VOLL#IST#",
+            "detailsReference": "eyJUIjpbeyJSIjoiMXwzMjU0OHwzfDgwfDIyMTIyMDIzIiwiTyI6MTEsIkQiOjE1LCJJIjowfV19",
+            "tripLegs": [
+                {
+                    "origin": {
+                        "stopPoint": {
+                            "gid": "9022014001760001",
+                            "name": "Brunnsparken, Göteborg",
+                            "platform": "A1",
+                            "stopArea": {
+                                "gid": "9021014001760000",
+                                "name": "Brunnsparken",
+                                "latitude": 57.70694041083368,
+                                "longitude": 11.967845315550022,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:49:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T16:50:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T16:50:00.0000000+01:00",
+                        "notes": [
+                            {
+                                "type": "disruption-message",
+                                "severity": "normal",
+                                "text": "Sök din resa i appen To Go. Linje 16, 18, 19, 65, 82, 83, 84, 86, 90, 91, 92, 93, 94, 95, 97, 99 och 114 flera inställda avgångar. Detta gäller 22 december klockan 11:00 till 23 december klockan 03:59. Orsaken är halka."
+                            }
+                        ]
+                    },
+                    "destination": {
+                        "stopPoint": {
+                            "gid": "9022014003980004",
+                            "name": "Korsvägen, Göteborg",
+                            "platform": "A3",
+                            "stopArea": {
+                                "gid": "9021014003980000",
+                                "name": "Korsvägen",
+                                "latitude": 57.69674538488433,
+                                "longitude": 11.986910964270878,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:57:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T16:57:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T16:57:00.0000000+01:00",
+                        "notes": [
+                            {
+                                "type": "disruption-message",
+                                "severity": "normal",
+                                "text": "Sök din resa i appen To Go. Linje 16, 18, 19, 65, 82, 83, 84, 86, 90, 91, 92, 93, 94, 95, 97, 99 och 114 flera inställda avgångar. Detta gäller 22 december klockan 11:00 till 23 december klockan 03:59. Orsaken är halka."
+                            }
+                        ]
+                    },
+                    "isCancelled": false,
+                    "isPartCancelled": false,
+                    "serviceJourney": {
+                        "gid": "9015014501800215",
+                        "direction": "Kallebäck",
+                        "number": "215",
+                        "line": {
+                            "shortName": "18",
+                            "designation": "18",
+                            "isWheelchairAccessible": true,
+                            "name": "Buss 18",
+                            "backgroundColor": "#323232",
+                            "foregroundColor": "#ffff50",
+                            "borderColor": "#323232",
+                            "transportMode": "bus",
+                            "transportSubMode": "none"
+                        }
+                    },
+                    "notes": [
+                        {
+                            "type": "disruption-message",
+                            "severity": "normal",
+                            "text": "Sök din resa i appen To Go. Linje 16, 18, 19, 65, 82, 83, 84, 86, 90, 91, 92, 93, 94, 95, 97, 99 och 114 flera inställda avgångar. Detta gäller 22 december klockan 11:00 till 23 december klockan 03:59. Orsaken är halka."
+                        }
+                    ],
+                    "plannedDepartureTime": "2023-12-22T16:49:00.0000000+01:00",
+                    "plannedArrivalTime": "2023-12-22T16:57:00.0000000+01:00",
+                    "plannedDurationInMinutes": 8,
+                    "estimatedDepartureTime": "2023-12-22T16:50:00.0000000+01:00",
+                    "estimatedArrivalTime": "2023-12-22T16:57:00.0000000+01:00",
+                    "estimatedDurationInMinutes": 7,
+                    "estimatedOtherwisePlannedArrivalTime": "2023-12-22T16:57:00.0000000+01:00",
+                    "estimatedOtherwisePlannedDepartureTime": "2023-12-22T16:50:00.0000000+01:00",
+                    "journeyLegIndex": 0
+                }
+            ],
+            "connectionLinks": [],
+            "isDeparted": true
+        },
+        {
+            "reconstructionReference": "¶HKI¶T$A=1@O=Brunnsparken, Göteborg@L=1760001@a=128@$A=1@O=Korsvägen, Göteborg@L=3980004@a=128@$202312221645$202312221653$Spå    5$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#97#AM2#0#RT#15#¶KRCC¶#VE#1#VOLL#IST#",
+            "detailsReference": "eyJUIjpbeyJSIjoiMXwxNDQ2NHwxfDgwfDIyMTIyMDIzIiwiTyI6MTcsIkQiOjIxLCJJIjowfV19",
+            "tripLegs": [
+                {
+                    "origin": {
+                        "stopPoint": {
+                            "gid": "9022014001760001",
+                            "name": "Brunnsparken, Göteborg",
+                            "platform": "A1",
+                            "stopArea": {
+                                "gid": "9021014001760000",
+                                "name": "Brunnsparken",
+                                "latitude": 57.70694041083368,
+                                "longitude": 11.967845315550022,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:45:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T16:51:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T16:51:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "destination": {
+                        "stopPoint": {
+                            "gid": "9022014003980004",
+                            "name": "Korsvägen, Göteborg",
+                            "platform": "A3",
+                            "stopArea": {
+                                "gid": "9021014003980000",
+                                "name": "Korsvägen",
+                                "latitude": 57.69674538488433,
+                                "longitude": 11.986910964270878,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:53:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T16:59:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T16:59:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "isCancelled": false,
+                    "isPartCancelled": false,
+                    "serviceJourney": {
+                        "gid": "9015014500500155",
+                        "direction": "Östra Sjukhuset",
+                        "number": "155",
+                        "line": {
+                            "shortName": "5",
+                            "designation": "5",
+                            "isWheelchairAccessible": true,
+                            "name": "Spårvagn 5",
+                            "backgroundColor": "#c63539",
+                            "foregroundColor": "#ffffff",
+                            "borderColor": "#c63539",
+                            "transportMode": "tram",
+                            "transportSubMode": "none"
+                        }
+                    },
+                    "notes": [],
+                    "plannedDepartureTime": "2023-12-22T16:45:00.0000000+01:00",
+                    "plannedArrivalTime": "2023-12-22T16:53:00.0000000+01:00",
+                    "plannedDurationInMinutes": 8,
+                    "estimatedDepartureTime": "2023-12-22T16:51:00.0000000+01:00",
+                    "estimatedArrivalTime": "2023-12-22T16:59:00.0000000+01:00",
+                    "estimatedDurationInMinutes": 8,
+                    "estimatedOtherwisePlannedArrivalTime": "2023-12-22T16:59:00.0000000+01:00",
+                    "estimatedOtherwisePlannedDepartureTime": "2023-12-22T16:51:00.0000000+01:00",
+                    "journeyLegIndex": 0
+                }
+            ],
+            "connectionLinks": [],
+            "isDeparted": false
+        },
+        {
+            "reconstructionReference": "¶HKI¶T$A=1@O=Brunnsparken, Göteborg@L=1760005@a=128@$A=1@O=Korsvägen, Göteborg@L=3980022@a=128@$202312221648$202312221712$Spå    6$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#97#AM2#0#RT#15#¶KRCC¶#VE#1#VOLL#IST#",
+            "detailsReference": "eyJUIjpbeyJSIjoiMXwyNzMyMnwwfDgwfDIyMTIyMDIzIiwiTyI6MTUsIkQiOjI3LCJJIjowfV19",
+            "tripLegs": [
+                {
+                    "origin": {
+                        "stopPoint": {
+                            "gid": "9022014001760005",
+                            "name": "Brunnsparken, Göteborg",
+                            "platform": "C1",
+                            "stopArea": {
+                                "gid": "9021014001760000",
+                                "name": "Brunnsparken",
+                                "latitude": 57.70694041083368,
+                                "longitude": 11.967845315550022,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:48:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T16:52:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T16:52:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "destination": {
+                        "stopPoint": {
+                            "gid": "9022014003980022",
+                            "name": "Korsvägen, Göteborg",
+                            "platform": "B2",
+                            "stopArea": {
+                                "gid": "9021014003980000",
+                                "name": "Korsvägen",
+                                "latitude": 57.69674538488433,
+                                "longitude": 11.986910964270878,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T17:12:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:15:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:15:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "isCancelled": false,
+                    "isPartCancelled": false,
+                    "serviceJourney": {
+                        "gid": "9015014500600163",
+                        "direction": "Nymånegatan via Sahlgrenska",
+                        "number": "163",
+                        "line": {
+                            "shortName": "6",
+                            "designation": "6",
+                            "isWheelchairAccessible": true,
+                            "name": "Spårvagn 6",
+                            "backgroundColor": "#f89828",
+                            "foregroundColor": "#00435c",
+                            "borderColor": "#f89828",
+                            "transportMode": "tram",
+                            "transportSubMode": "none"
+                        }
+                    },
+                    "notes": [],
+                    "plannedDepartureTime": "2023-12-22T16:48:00.0000000+01:00",
+                    "plannedArrivalTime": "2023-12-22T17:12:00.0000000+01:00",
+                    "plannedDurationInMinutes": 24,
+                    "estimatedDepartureTime": "2023-12-22T16:52:00.0000000+01:00",
+                    "estimatedArrivalTime": "2023-12-22T17:15:00.0000000+01:00",
+                    "estimatedDurationInMinutes": 23,
+                    "estimatedOtherwisePlannedArrivalTime": "2023-12-22T17:15:00.0000000+01:00",
+                    "estimatedOtherwisePlannedDepartureTime": "2023-12-22T16:52:00.0000000+01:00",
+                    "journeyLegIndex": 0
+                }
+            ],
+            "connectionLinks": [],
+            "isDeparted": false
+        },
+        {
+            "reconstructionReference": "¶HKI¶T$A=1@O=Brunnsparken, Göteborg@L=1760004@a=128@$A=1@O=Korsvägen, Göteborg@L=3980021@a=128@$202312221651$202312221659$Spå    2$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#97#AM2#0#RT#15#¶KRCC¶#VE#1#",
+            "detailsReference": "eyJUIjpbeyJSIjoiMXwyNzI5NXw5fDgwfDIyMTIyMDIzIiwiTyI6MTIsIkQiOjE2LCJJIjowfV19",
+            "tripLegs": [
+                {
+                    "origin": {
+                        "stopPoint": {
+                            "gid": "9022014001760004",
+                            "name": "Brunnsparken, Göteborg",
+                            "platform": "B2",
+                            "stopArea": {
+                                "gid": "9021014001760000",
+                                "name": "Brunnsparken",
+                                "latitude": 57.70694041083368,
+                                "longitude": 11.967845315550022,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:51:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T16:53:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T16:53:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "destination": {
+                        "stopPoint": {
+                            "gid": "9022014003980021",
+                            "name": "Korsvägen, Göteborg",
+                            "platform": "B1",
+                            "stopArea": {
+                                "gid": "9021014003980000",
+                                "name": "Korsvägen",
+                                "latitude": 57.69674538488433,
+                                "longitude": 11.986910964270878,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:59:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:01:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:01:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "isCancelled": false,
+                    "isPartCancelled": false,
+                    "serviceJourney": {
+                        "gid": "9015014500200161",
+                        "direction": "Krokslätt",
+                        "number": "161",
+                        "line": {
+                            "shortName": "2",
+                            "designation": "2",
+                            "isWheelchairAccessible": false,
+                            "name": "Spårvagn 2",
+                            "backgroundColor": "#ffdd00",
+                            "foregroundColor": "#006c93",
+                            "borderColor": "#ffdd00",
+                            "transportMode": "tram",
+                            "transportSubMode": "none"
+                        }
+                    },
+                    "notes": [],
+                    "plannedDepartureTime": "2023-12-22T16:51:00.0000000+01:00",
+                    "plannedArrivalTime": "2023-12-22T16:59:00.0000000+01:00",
+                    "plannedDurationInMinutes": 8,
+                    "estimatedDepartureTime": "2023-12-22T16:53:00.0000000+01:00",
+                    "estimatedArrivalTime": "2023-12-22T17:01:00.0000000+01:00",
+                    "estimatedDurationInMinutes": 8,
+                    "estimatedOtherwisePlannedArrivalTime": "2023-12-22T17:01:00.0000000+01:00",
+                    "estimatedOtherwisePlannedDepartureTime": "2023-12-22T16:53:00.0000000+01:00",
+                    "journeyLegIndex": 0
+                }
+            ],
+            "connectionLinks": [],
+            "isDeparted": false
+        },
+        {
+            "reconstructionReference": "¶HKI¶T$A=1@O=Brunnsparken, Göteborg@L=1760001@a=128@$A=1@O=Korsvägen, Göteborg@L=3980004@a=128@$202312221654$202312221702$Bus   18$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#97#AM2#0#RT#15#¶KRCC¶#VE#1#",
+            "detailsReference": "eyJUIjpbeyJSIjoiMXwzMjU0N3wzfDgwfDIyMTIyMDIzIiwiTyI6MTUsIkQiOjE5LCJJIjowfV19",
+            "tripLegs": [
+                {
+                    "origin": {
+                        "stopPoint": {
+                            "gid": "9022014001760001",
+                            "name": "Brunnsparken, Göteborg",
+                            "platform": "A1",
+                            "stopArea": {
+                                "gid": "9021014001760000",
+                                "name": "Brunnsparken",
+                                "latitude": 57.70694041083368,
+                                "longitude": 11.967845315550022,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:54:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T16:54:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T16:54:00.0000000+01:00",
+                        "notes": [
+                            {
+                                "type": "disruption-message",
+                                "severity": "normal",
+                                "text": "Sök din resa i appen To Go. Linje 16, 18, 19, 65, 82, 83, 84, 86, 90, 91, 92, 93, 94, 95, 97, 99 och 114 flera inställda avgångar. Detta gäller 22 december klockan 11:00 till 23 december klockan 03:59. Orsaken är halka."
+                            }
+                        ]
+                    },
+                    "destination": {
+                        "stopPoint": {
+                            "gid": "9022014003980004",
+                            "name": "Korsvägen, Göteborg",
+                            "platform": "A3",
+                            "stopArea": {
+                                "gid": "9021014003980000",
+                                "name": "Korsvägen",
+                                "latitude": 57.69674538488433,
+                                "longitude": 11.986910964270878,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T17:02:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:02:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:02:00.0000000+01:00",
+                        "notes": [
+                            {
+                                "type": "disruption-message",
+                                "severity": "normal",
+                                "text": "Sök din resa i appen To Go. Linje 16, 18, 19, 65, 82, 83, 84, 86, 90, 91, 92, 93, 94, 95, 97, 99 och 114 flera inställda avgångar. Detta gäller 22 december klockan 11:00 till 23 december klockan 03:59. Orsaken är halka."
+                            }
+                        ]
+                    },
+                    "isCancelled": false,
+                    "isPartCancelled": false,
+                    "serviceJourney": {
+                        "gid": "9015014501800213",
+                        "direction": "Kallebäck",
+                        "number": "213",
+                        "line": {
+                            "shortName": "18",
+                            "designation": "18",
+                            "isWheelchairAccessible": false,
+                            "name": "Buss 18",
+                            "backgroundColor": "#323232",
+                            "foregroundColor": "#ffff50",
+                            "borderColor": "#323232",
+                            "transportMode": "bus",
+                            "transportSubMode": "none"
+                        }
+                    },
+                    "notes": [
+                        {
+                            "type": "disruption-message",
+                            "severity": "normal",
+                            "text": "Sök din resa i appen To Go. Linje 16, 18, 19, 65, 82, 83, 84, 86, 90, 91, 92, 93, 94, 95, 97, 99 och 114 flera inställda avgångar. Detta gäller 22 december klockan 11:00 till 23 december klockan 03:59. Orsaken är halka."
+                        }
+                    ],
+                    "plannedDepartureTime": "2023-12-22T16:54:00.0000000+01:00",
+                    "plannedArrivalTime": "2023-12-22T17:02:00.0000000+01:00",
+                    "plannedDurationInMinutes": 8,
+                    "estimatedDepartureTime": "2023-12-22T16:54:00.0000000+01:00",
+                    "estimatedArrivalTime": "2023-12-22T17:02:00.0000000+01:00",
+                    "estimatedDurationInMinutes": 8,
+                    "estimatedOtherwisePlannedArrivalTime": "2023-12-22T17:02:00.0000000+01:00",
+                    "estimatedOtherwisePlannedDepartureTime": "2023-12-22T16:54:00.0000000+01:00",
+                    "journeyLegIndex": 0
+                }
+            ],
+            "connectionLinks": [],
+            "isDeparted": false
+        },
+        {
+            "reconstructionReference": "¶HKI¶T$A=1@O=Brunnsparken, Göteborg@L=1760001@a=128@$A=1@O=Korsvägen, Göteborg@L=3980004@a=128@$202312221653$202312221701$Spå    5$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#97#AM2#0#RT#15#¶KRCC¶#VE#1#",
+            "detailsReference": "eyJUIjpbeyJSIjoiMXwxMjM4MHwxfDgwfDIyMTIyMDIzIiwiTyI6MTcsIkQiOjIxLCJJIjowfV19",
+            "tripLegs": [
+                {
+                    "origin": {
+                        "stopPoint": {
+                            "gid": "9022014001760001",
+                            "name": "Brunnsparken, Göteborg",
+                            "platform": "A1",
+                            "stopArea": {
+                                "gid": "9021014001760000",
+                                "name": "Brunnsparken",
+                                "latitude": 57.70694041083368,
+                                "longitude": 11.967845315550022,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:53:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T16:55:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T16:55:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "destination": {
+                        "stopPoint": {
+                            "gid": "9022014003980004",
+                            "name": "Korsvägen, Göteborg",
+                            "platform": "A3",
+                            "stopArea": {
+                                "gid": "9021014003980000",
+                                "name": "Korsvägen",
+                                "latitude": 57.69674538488433,
+                                "longitude": 11.986910964270878,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T17:01:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:03:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:03:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "isCancelled": false,
+                    "isPartCancelled": false,
+                    "serviceJourney": {
+                        "gid": "9015014500500157",
+                        "direction": "Östra Sjukhuset",
+                        "number": "157",
+                        "line": {
+                            "shortName": "5",
+                            "designation": "5",
+                            "isWheelchairAccessible": true,
+                            "name": "Spårvagn 5",
+                            "backgroundColor": "#c63539",
+                            "foregroundColor": "#ffffff",
+                            "borderColor": "#c63539",
+                            "transportMode": "tram",
+                            "transportSubMode": "none"
+                        }
+                    },
+                    "notes": [],
+                    "plannedDepartureTime": "2023-12-22T16:53:00.0000000+01:00",
+                    "plannedArrivalTime": "2023-12-22T17:01:00.0000000+01:00",
+                    "plannedDurationInMinutes": 8,
+                    "estimatedDepartureTime": "2023-12-22T16:55:00.0000000+01:00",
+                    "estimatedArrivalTime": "2023-12-22T17:03:00.0000000+01:00",
+                    "estimatedDurationInMinutes": 8,
+                    "estimatedOtherwisePlannedArrivalTime": "2023-12-22T17:03:00.0000000+01:00",
+                    "estimatedOtherwisePlannedDepartureTime": "2023-12-22T16:55:00.0000000+01:00",
+                    "journeyLegIndex": 0
+                }
+            ],
+            "connectionLinks": [],
+            "isDeparted": false
+        },
+        {
+            "reconstructionReference": "¶HKI¶W$A=1@O=Brunnsparken, Göteborg@L=828001258@a=128@$A=1@O=Åkareplatsen, Göteborg@L=7600002@a=128@$202312221656$202312221708$$$1$$$$$$§T$A=1@O=Åkareplatsen, Göteborg@L=7600002@a=128@$A=1@O=Korsvägen, Göteborg@L=3980014@a=128@$202312221708$202312221713$Bus  300$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#97#AM2#0#RT#15#¶KRCC¶#VE#1#",
+            "detailsReference": "eyJUIjpbeyJSIjoiMXwxNzcwNHwzfDgwfDIyMTIyMDIzIiwiTyI6MCwiRCI6MSwiSSI6MH1dLCJEIjoiSHwxfFckQT0xQE89QnJ1bm5zcGFya2VuLCBHw7Z0ZWJvcmdATD04MjgwMDEyNThAYT0xMjhAJEE9MUBPPcOFa2FyZXBsYXRzZW4sIEfDtnRlYm9yZ0BMPTc2MDAwMDJAYT0xMjhAJDIwMjMxMjIyMTY1NiQyMDIzMTIyMjE3MDgkJCQxJCQkJCQkfCNWRSMyI0NGIzEwMCNDQSMwI0NNIzAjU0lDVCMwI0FNIzk3I0FNMiMwI1JUIzE1IyJ9",
+            "departureAccessLink": {
+                "transportMode": "walk",
+                "transportSubMode": "none",
+                "origin": {
+                    "gid": "0000000828001258",
+                    "name": "Brunnsparken, Göteborg",
+                    "locationType": "stoparea",
+                    "latitude": 57.706801,
+                    "longitude": 11.967132,
+                    "plannedTime": "2023-12-22T16:56:00.0000000+01:00",
+                    "estimatedOtherwisePlannedTime": "2023-12-22T16:56:00.0000000+01:00",
+                    "notes": []
+                },
+                "destination": {
+                    "stopPoint": {
+                        "gid": "9022014007600002",
+                        "name": "Åkareplatsen, Göteborg",
+                        "stopArea": {
+                            "gid": "9021014007600000",
+                            "name": "Åkareplatsen",
+                            "latitude": 57.708329556512865,
+                            "longitude": 11.97594023107176,
+                            "tariffZone1": {
+                                "gid": "9081014200003000",
+                                "name": "Zon A",
+                                "number": 3000,
+                                "shortName": "A"
+                            }
+                        }
+                    },
+                    "plannedTime": "2023-12-22T17:08:00.0000000+01:00",
+                    "estimatedOtherwisePlannedTime": "2023-12-22T17:08:00.0000000+01:00",
+                    "notes": []
+                },
+                "notes": [],
+                "distanceInMeters": 562,
+                "plannedDepartureTime": "2023-12-22T16:56:00.0000000+01:00",
+                "plannedArrivalTime": "2023-12-22T17:08:00.0000000+01:00",
+                "plannedDurationInMinutes": 12,
+                "estimatedNumberOfSteps": 865,
+                "linkCoordinates": [
+                    {
+                        "latitude": 57.706801,
+                        "longitude": 11.967132
+                    },
+                    {
+                        "latitude": 57.708374,
+                        "longitude": 11.976122
+                    }
+                ]
+            },
+            "tripLegs": [
+                {
+                    "origin": {
+                        "stopPoint": {
+                            "gid": "9022014007600002",
+                            "name": "Åkareplatsen, Göteborg",
+                            "stopArea": {
+                                "gid": "9021014007600000",
+                                "name": "Åkareplatsen",
+                                "latitude": 57.708329556512865,
+                                "longitude": 11.97594023107176,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T17:08:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:08:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:08:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "destination": {
+                        "stopPoint": {
+                            "gid": "9022014003980014",
+                            "name": "Korsvägen, Göteborg",
+                            "platform": "A4",
+                            "stopArea": {
+                                "gid": "9021014003980000",
+                                "name": "Korsvägen",
+                                "latitude": 57.69674538488433,
+                                "longitude": 11.986910964270878,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T17:13:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:16:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:16:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "isCancelled": false,
+                    "isPartCancelled": false,
+                    "serviceJourney": {
+                        "gid": "9015014230000055",
+                        "direction": "Kinna, Påstigning fram",
+                        "number": "55",
+                        "line": {
+                            "shortName": "300",
+                            "designation": "300",
+                            "isWheelchairAccessible": true,
+                            "name": "Buss 300",
+                            "backgroundColor": "#ffff50",
+                            "foregroundColor": "#0061eb",
+                            "borderColor": "#ffff50",
+                            "transportMode": "bus",
+                            "transportSubMode": "none"
+                        }
+                    },
+                    "notes": [],
+                    "plannedDepartureTime": "2023-12-22T17:08:00.0000000+01:00",
+                    "plannedArrivalTime": "2023-12-22T17:13:00.0000000+01:00",
+                    "plannedDurationInMinutes": 5,
+                    "estimatedDepartureTime": "2023-12-22T17:08:00.0000000+01:00",
+                    "estimatedArrivalTime": "2023-12-22T17:16:00.0000000+01:00",
+                    "estimatedDurationInMinutes": 8,
+                    "estimatedOtherwisePlannedArrivalTime": "2023-12-22T17:16:00.0000000+01:00",
+                    "estimatedOtherwisePlannedDepartureTime": "2023-12-22T17:08:00.0000000+01:00",
+                    "journeyLegIndex": 0
+                }
+            ],
+            "connectionLinks": [],
+            "isDeparted": false
+        },
+        {
+            "reconstructionReference": "¶HKI¶T$A=1@O=Brunnsparken, Göteborg@L=1760013@a=128@$A=1@O=Grönsakstorget, Göteborg@L=2850002@a=128@$202312221657$202312221701$Bus   25$$1$$$$$$§T$A=1@O=Grönsakstorget, Göteborg@L=2850002@a=128@$A=1@O=Korsvägen, Göteborg@L=3980004@a=128@$202312221702$202312221709$Bus  RÖD$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#97#AM2#0#RT#15#¶KRCC¶#VE#1#VOLL#IST#",
+            "detailsReference": "eyJUIjpbeyJSIjoiMXwzMzMzOXwwfDgwfDIyMTIyMDIzIiwiTyI6MiwiRCI6NCwiSSI6MH0seyJSIjoiMXwzODUxNHwwfDgwfDIyMTIyMDIzIiwiTyI6MTAsIkQiOjEzLCJJIjoxfV19",
+            "tripLegs": [
+                {
+                    "origin": {
+                        "stopPoint": {
+                            "gid": "9022014001760013",
+                            "name": "Brunnsparken, Göteborg",
+                            "platform": "A3",
+                            "stopArea": {
+                                "gid": "9021014001760000",
+                                "name": "Brunnsparken",
+                                "latitude": 57.70694041083368,
+                                "longitude": 11.967845315550022,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:57:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T16:57:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T16:57:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "destination": {
+                        "stopPoint": {
+                            "gid": "9022014002850002",
+                            "name": "Grönsakstorget, Göteborg",
+                            "platform": "B",
+                            "stopArea": {
+                                "gid": "9021014002850000",
+                                "name": "Grönsakstorget",
+                                "latitude": 57.702490629922934,
+                                "longitude": 11.964439972059367,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T17:01:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:00:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:00:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "isCancelled": false,
+                    "isPartCancelled": false,
+                    "serviceJourney": {
+                        "gid": "9015014502500185",
+                        "direction": "Mölndal resecentrum",
+                        "number": "185",
+                        "line": {
+                            "shortName": "25",
+                            "designation": "25",
+                            "isWheelchairAccessible": true,
+                            "name": "Buss 25",
+                            "backgroundColor": "#006fde",
+                            "foregroundColor": "#ffff50",
+                            "borderColor": "#006fde",
+                            "transportMode": "bus",
+                            "transportSubMode": "none"
+                        }
+                    },
+                    "notes": [],
+                    "plannedDepartureTime": "2023-12-22T16:57:00.0000000+01:00",
+                    "plannedArrivalTime": "2023-12-22T17:01:00.0000000+01:00",
+                    "plannedDurationInMinutes": 4,
+                    "estimatedDepartureTime": "2023-12-22T16:57:00.0000000+01:00",
+                    "estimatedArrivalTime": "2023-12-22T17:00:00.0000000+01:00",
+                    "estimatedDurationInMinutes": 3,
+                    "estimatedOtherwisePlannedArrivalTime": "2023-12-22T17:00:00.0000000+01:00",
+                    "estimatedOtherwisePlannedDepartureTime": "2023-12-22T16:57:00.0000000+01:00",
+                    "journeyLegIndex": 0
+                },
+                {
+                    "origin": {
+                        "stopPoint": {
+                            "gid": "9022014002850002",
+                            "name": "Grönsakstorget, Göteborg",
+                            "platform": "B",
+                            "stopArea": {
+                                "gid": "9021014002850000",
+                                "name": "Grönsakstorget",
+                                "latitude": 57.702490629922934,
+                                "longitude": 11.964439972059367,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T17:02:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:03:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:03:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "destination": {
+                        "stopPoint": {
+                            "gid": "9022014003980004",
+                            "name": "Korsvägen, Göteborg",
+                            "platform": "A3",
+                            "stopArea": {
+                                "gid": "9021014003980000",
+                                "name": "Korsvägen",
+                                "latitude": 57.69674538488433,
+                                "longitude": 11.986910964270878,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T17:09:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:08:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:08:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "isCancelled": false,
+                    "isPartCancelled": false,
+                    "serviceJourney": {
+                        "gid": "9015014620100166",
+                        "direction": "Landvetter centrum, Påstigning fram",
+                        "number": "166",
+                        "line": {
+                            "shortName": "RÖD",
+                            "designation": "RÖD",
+                            "isWheelchairAccessible": true,
+                            "name": "Buss RÖD",
+                            "backgroundColor": "#c63539",
+                            "foregroundColor": "#ffffff",
+                            "borderColor": "#c63539",
+                            "transportMode": "bus",
+                            "transportSubMode": "none"
+                        }
+                    },
+                    "notes": [],
+                    "plannedConnectingTimeInMinutes": 1,
+                    "estimatedConnectingTimeInMinutes": 3,
+                    "isRiskOfMissingConnection": false,
+                    "plannedDepartureTime": "2023-12-22T17:02:00.0000000+01:00",
+                    "plannedArrivalTime": "2023-12-22T17:09:00.0000000+01:00",
+                    "plannedDurationInMinutes": 7,
+                    "estimatedDepartureTime": "2023-12-22T17:03:00.0000000+01:00",
+                    "estimatedArrivalTime": "2023-12-22T17:08:00.0000000+01:00",
+                    "estimatedDurationInMinutes": 5,
+                    "estimatedOtherwisePlannedArrivalTime": "2023-12-22T17:08:00.0000000+01:00",
+                    "estimatedOtherwisePlannedDepartureTime": "2023-12-22T17:03:00.0000000+01:00",
+                    "journeyLegIndex": 1
+                }
+            ],
+            "connectionLinks": [],
+            "isDeparted": false
+        },
+        {
+            "reconstructionReference": "¶HKI¶T$A=1@O=Brunnsparken, Göteborg@L=1760005@a=128@$A=1@O=Korsvägen, Göteborg@L=3980004@a=128@$202312221656$202312221704$Spå    4$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#97#AM2#0#RT#15#¶KRCC¶#VE#1#",
+            "detailsReference": "eyJUIjpbeyJSIjoiMXwxMjQ3MnwwfDgwfDIyMTIyMDIzIiwiTyI6NiwiRCI6MTAsIkkiOjB9XX0",
+            "tripLegs": [
+                {
+                    "origin": {
+                        "stopPoint": {
+                            "gid": "9022014001760005",
+                            "name": "Brunnsparken, Göteborg",
+                            "platform": "C1",
+                            "stopArea": {
+                                "gid": "9021014001760000",
+                                "name": "Brunnsparken",
+                                "latitude": 57.70694041083368,
+                                "longitude": 11.967845315550022,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:56:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:03:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:03:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "destination": {
+                        "stopPoint": {
+                            "gid": "9022014003980004",
+                            "name": "Korsvägen, Göteborg",
+                            "platform": "A3",
+                            "stopArea": {
+                                "gid": "9021014003980000",
+                                "name": "Korsvägen",
+                                "latitude": 57.69674538488433,
+                                "longitude": 11.986910964270878,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T17:04:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:11:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:11:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "isCancelled": false,
+                    "isPartCancelled": false,
+                    "serviceJourney": {
+                        "gid": "9015014500400148",
+                        "direction": "Mölndal",
+                        "number": "148",
+                        "line": {
+                            "shortName": "4",
+                            "designation": "4",
+                            "isWheelchairAccessible": true,
+                            "name": "Spårvagn 4",
+                            "backgroundColor": "#027446",
+                            "foregroundColor": "#ffffff",
+                            "borderColor": "#027446",
+                            "transportMode": "tram",
+                            "transportSubMode": "none"
+                        }
+                    },
+                    "notes": [],
+                    "plannedDepartureTime": "2023-12-22T16:56:00.0000000+01:00",
+                    "plannedArrivalTime": "2023-12-22T17:04:00.0000000+01:00",
+                    "plannedDurationInMinutes": 8,
+                    "estimatedDepartureTime": "2023-12-22T17:03:00.0000000+01:00",
+                    "estimatedArrivalTime": "2023-12-22T17:11:00.0000000+01:00",
+                    "estimatedDurationInMinutes": 8,
+                    "estimatedOtherwisePlannedArrivalTime": "2023-12-22T17:11:00.0000000+01:00",
+                    "estimatedOtherwisePlannedDepartureTime": "2023-12-22T17:03:00.0000000+01:00",
+                    "journeyLegIndex": 0
+                }
+            ],
+            "connectionLinks": [],
+            "isDeparted": false
+        },
+        {
+            "reconstructionReference": "¶HKI¶T$A=1@O=Brunnsparken, Göteborg@L=1760004@a=128@$A=1@O=Korsvägen, Göteborg@L=3980021@a=128@$202312221658$202312221706$Spå    2$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#97#AM2#0#RT#15#¶KRCC¶#VE#1#",
+            "detailsReference": "eyJUIjpbeyJSIjoiMXwyNzMyNHwwfDgwfDIyMTIyMDIzIiwiTyI6MTIsIkQiOjE2LCJJIjowfV19",
+            "tripLegs": [
+                {
+                    "origin": {
+                        "stopPoint": {
+                            "gid": "9022014001760004",
+                            "name": "Brunnsparken, Göteborg",
+                            "platform": "B2",
+                            "stopArea": {
+                                "gid": "9021014001760000",
+                                "name": "Brunnsparken",
+                                "latitude": 57.70694041083368,
+                                "longitude": 11.967845315550022,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T16:58:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:05:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:05:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "destination": {
+                        "stopPoint": {
+                            "gid": "9022014003980021",
+                            "name": "Korsvägen, Göteborg",
+                            "platform": "B1",
+                            "stopArea": {
+                                "gid": "9021014003980000",
+                                "name": "Korsvägen",
+                                "latitude": 57.69674538488433,
+                                "longitude": 11.986910964270878,
+                                "tariffZone1": {
+                                    "gid": "9081014200003000",
+                                    "name": "Zon A",
+                                    "number": 3000,
+                                    "shortName": "A"
+                                }
+                            }
+                        },
+                        "plannedTime": "2023-12-22T17:06:00.0000000+01:00",
+                        "estimatedTime": "2023-12-22T17:13:00.0000000+01:00",
+                        "estimatedOtherwisePlannedTime": "2023-12-22T17:13:00.0000000+01:00",
+                        "notes": []
+                    },
+                    "isCancelled": false,
+                    "isPartCancelled": false,
+                    "serviceJourney": {
+                        "gid": "9015014500200163",
+                        "direction": "Krokslätt",
+                        "number": "163",
+                        "line": {
+                            "shortName": "2",
+                            "designation": "2",
+                            "isWheelchairAccessible": true,
+                            "name": "Spårvagn 2",
+                            "backgroundColor": "#ffdd00",
+                            "foregroundColor": "#006c93",
+                            "borderColor": "#ffdd00",
+                            "transportMode": "tram",
+                            "transportSubMode": "none"
+                        }
+                    },
+                    "notes": [],
+                    "plannedDepartureTime": "2023-12-22T16:58:00.0000000+01:00",
+                    "plannedArrivalTime": "2023-12-22T17:06:00.0000000+01:00",
+                    "plannedDurationInMinutes": 8,
+                    "estimatedDepartureTime": "2023-12-22T17:05:00.0000000+01:00",
+                    "estimatedArrivalTime": "2023-12-22T17:13:00.0000000+01:00",
+                    "estimatedDurationInMinutes": 8,
+                    "estimatedOtherwisePlannedArrivalTime": "2023-12-22T17:13:00.0000000+01:00",
+                    "estimatedOtherwisePlannedDepartureTime": "2023-12-22T17:05:00.0000000+01:00",
+                    "journeyLegIndex": 0
+                }
+            ],
+            "connectionLinks": [],
+            "isDeparted": false
+        }
+    ],
+    "links": {
+        "previous": "journeys?originGid=9021014001760000&destinationGid=9021014003980000&dateTime=2023-12-22T15%3A50%3A37.0000000%2B00%3A00&paginationReference=M3xPQnxNVMK1MTTCtTkwMjkxwrU5MDI5McK1OTAyOTnCtTkwMjk5wrUwwrUwwrU1wrU5MDI5MMK1McK1MMK1NDA5OMK1MMK1MMK1LTIxNDc0ODM2NDjCtTHCtTJ8UERIwrVlNWRmYTU5OTFiY2M0Zjc4YTAzNzUxYWI0ZjJmNmZiMnxSRMK1MjIxMjIwMjN8UlTCtTE2NTAzN3xVU8K1MHxSU8K1SU5JVA",
+        "next": "journeys?originGid=9021014001760000&destinationGid=9021014003980000&dateTime=2023-12-22T15%3A50%3A37.0000000%2B00%3A00&paginationReference=M3xPRnxNVMK1MTTCtTkwMjk4wrU5MDI5OMK1OTAzMDbCtTkwMzA2wrUwwrUwwrU1wrU5MDI5N8K1NsK1MMK1NDA5OMK1MMK1MMK1LTIxNDc0ODM2NDjCtTHCtTJ8UERIwrVlNWRmYTU5OTFiY2M0Zjc4YTAzNzUxYWI0ZjJmNmZiMnxSRMK1MjIxMjIwMjN8UlTCtTE2NTAzN3xVU8K1MHxSU8K1SU5JVA",
+        "current": "journeys?originGid=9021014001760000&destinationGid=9021014003980000&dateTime=2023-12-22T15%3A50%3A37.0000000%2B00%3A00"
+    }
+}
