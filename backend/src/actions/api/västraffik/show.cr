@@ -1,36 +1,34 @@
 require "http/client"
 require "json"
 
-
 class Api::Västraffik::Show < ApiAction
+  @token : String = ""
 
-  HEADER = HTTP::Headers{"Authorization" => "Bearer #{KEY}", "accept" => "application/json"} 
+  before token?
 
   include Api::Auth::SkipRequireAuthToken
   post "/api/vastraffik" do
-    departure_place, arrival_place = params.from_json["orginName"].as_s, params.from_json["destinationName"].as_s
-    uri_geo_start = URI::Params.encode({"name" => departure_place, "includeTariffZones" => "true", "includeMunicipality" => "true", "isRegularTraffic" => "true", "limit" => "10", "offset"=>"0", "includeGeometry" => "true"})
-    uri_geo_end = URI::Params.encode({"name" => arrival_place, "includeTariffZones" => "true", "includeMunicipality" => "true", "isRegularTraffic" => "true", "limit" => "10", "offset"=>"0", "includeGeometry" => "true"})
-
-    route_geo_start = URI.new("https", "ext-api.vasttrafik.se", path: "/geo/v2/StopPoints", query: uri_geo_start)
-    route_geo_end = URI.new("https", "ext-api.vasttrafik.se", path: "/geo/v2/StopPoints", query: uri_geo_end)
-
-    p HTTP::Client.get(route_geo_start, HEADER).body
-    p HTTP::Client.get(route_geo_end, HEADER).body
-
-    route_geo_start_response = JSON.parse(HTTP::Client.get(route_geo_start, HEADER).body)
-    route_geo_end_response = JSON.parse(HTTP::Client.get(route_geo_end, HEADER).body)
-
-    p route_geo_start_response
-    p route_geo_end_response
-
-    gid_start = route_geo_start_response["stopPoints"][0]["gid"].to_s
-    gid_end = route_geo_end_response["stopPoints"][0]["gid"].to_s
+    header = HTTP::Headers{"Authorization" => "Bearer #{@token}", "accept" => "application/json"} 
+    departure_place, arrival_place = params.from_json["orginName"]["value"].to_s, params.from_json["destinationName"]["value"].to_s
+    departure_place_name, arrival_place_name = params.from_json["orginName"]["label"].to_s, params.from_json["destinationName"]["label"].to_s
+    via_gid = params.from_json["viaGid"]["value"].to_s
+    time = params.from_json["time"].to_s
+    date_time = params.from_json["dateTime"].to_s
+    transport_modes = params.from_json["transportModes"].as_a.map(&.to_s)
+    onlyDirectConnections = params.from_json["onlyDirectConnections"].to_s
+    
+    transport_modes << "walk"
 
 
-    uri = URI::Params.encode({"originGid" => gid_start, "destinationGid" => gid_end, "orginName" => departure_place, "destinationName" => arrival_place, "Authorization" => KEY})
+    uri = URI::Params.encode({"originGid" => departure_place, "onlyDirectConnections" => onlyDirectConnections, "viaGid" => via_gid, "destinationGid" => arrival_place, "orginName" => departure_place_name, "destinationName" => arrival_place_name, "transportModes" => transport_modes, "Authorization" => KEY})
+    if time != "now"
+      time_uri = URI::Params.encode({"dateTimeRelatesTo" => time, "dateTime" => date_time})
+      uri += "&#{time_uri}"
+
+    end
     route = URI.new("https", "ext-api.vasttrafik.se", path: "/pr/v4/journeys", query: uri)
-    response = HTTP::Client.get(route, HEADER)
+    response = HTTP::Client.get(route, header)
     raw_json response.body
   end
 end
+

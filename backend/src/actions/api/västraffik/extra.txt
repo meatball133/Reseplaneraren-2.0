@@ -1,0 +1,17 @@
+    uri_geo_start = URI::Params.encode({"name" => departure_place, "includeTariffZones" => "true", "includeMunicipality" => "true", "isRegularTraffic" => "true", "limit" => "10", "offset"=>"0", "includeGeometry" => "true"})
+    uri_geo_end = URI::Params.encode({"name" => arrival_place, "includeTariffZones" => "true", "includeMunicipality" => "true", "isRegularTraffic" => "true", "limit" => "10", "offset"=>"0", "includeGeometry" => "true"})
+
+    route_geo_start = URI.new("https", "ext-api.vasttrafik.se", path: "/geo/v2/StopPoints", query: uri_geo_start)
+    route_geo_end = URI.new("https", "ext-api.vasttrafik.se", path: "/geo/v2/StopPoints", query: uri_geo_end)
+
+    p HTTP::Client.get(route_geo_start, header).body
+    p HTTP::Client.get(route_geo_end, header).body
+
+    route_geo_start_response = JSON.parse(HTTP::Client.get(route_geo_start, header).body)
+    route_geo_end_response = JSON.parse(HTTP::Client.get(route_geo_end, header).body)
+
+    p route_geo_start_response
+    p route_geo_end_response
+
+    gid_start = route_geo_start_response["stopPoints"][0]["gid"].to_s
+    gid_end = route_geo_end_response["stopPoints"][0]["gid"].to_s

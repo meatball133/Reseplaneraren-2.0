@@ -7,6 +7,9 @@ abstract class ApiAction < Lucky::Action
 
   include Api::Auth::Helpers
 
+  # Script that gets new access token if the current one is expired
+  include Api::Västraffik::AccessToken
+
   # By default all actions require sign in.
   # Add 'include Api::Auth::SkipRequireAuthToken' to your actions to allow all requests.
   include Api::Auth::RequireAuthToken

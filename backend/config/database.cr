@@ -1,4 +1,4 @@
-database_name = "my_app_#{LuckyEnv.environment}"
+database_name = "vastraffik"
 
 AppDatabase.configure do |settings|
   if LuckyEnv.production?

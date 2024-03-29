@@ -1,12 +1,30 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
 import { AppShell, Burger } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { Route } from './components/route';
+import { RouteSearch } from './components/searchPage/routeSearch';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  Route
+} from "react-router-dom";
+import { DetailedPage } from './components/detailedPage/detailedPage';
 
 function App() {
   const [opened, { toggle }] = useDisclosure();
+
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <>
+      <Route path="/" element={<RouteSearch />}/>
+              <Route path="/:id" element={<DetailedPage />} />
+              </>
+    )
+  );
+  
+
   return (
     <AppShell
     header={{ height: 70 }}
@@ -23,7 +41,7 @@ function App() {
     </AppShell.Header>
 
     <AppShell.Main>
-      <Route />
+      <RouterProvider router={router} />
       
       </AppShell.Main>
   </AppShell>

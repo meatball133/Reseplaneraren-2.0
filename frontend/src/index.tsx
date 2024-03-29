@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '@mantine/core/styles.css';
+import '@mantine/dates/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
 
 const theme = createTheme({
